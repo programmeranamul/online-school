@@ -1,0 +1,80 @@
+.primary-bg{
+    background-color: #E91E63;
+}
+.rounded-btn{
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 900;
+    padding: 8px 18px;
+    border-radius: 67px;
+    margin-left: 20px;
+}
+
+
+/* Header Area */
+.ht-social-link{
+    width: 40px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255 , .3);
+    text-align: center;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    padding: 7px;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+.ht-social-link:hover{
+    background-color: rgba(255, 255, 255 , .2);
+}
+/* Logo Area */
+.logo-images{
+    height: 50px;
+}
+.navbar-item{
+    border-bottom: 3px solid transparent;
+    transition: all .4s ease;
+}
+.navbar-item:hover{
+    border-bottom: 3px solid tomato;
+}
+
+
+/* Start Become A Teacher Area */
+/* #become-teacher{
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position:right;
+} */
+#become-teacher h1{
+    font-size: 57px;
+}
+#become-teacher p{
+    font-size: 20px;
+}
+.left-teacher-area{
+    background-image:linear-gradient(to right,#670460, #A20767 ) ;
+    position: relative; 
+}
+.right-teacher-area{
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.teacher-from{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+.teacher-video-area{
+    position: absolute;
+    left: 93%;
+    top: 50%;
+}
+.teacher-video{
+    width: 60px;
+    height: 60px;    
+    text-decoration: none;
+}
